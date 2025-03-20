@@ -25,7 +25,7 @@ function toggleLeftDrawer() {
 
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" class="custom-drawer">
       <q-list>
-        <q-item-label header class="drawer-title">Menú</q-item-label>
+        <q-item-label header class="drawer-title">Menu</q-item-label>
 
         <q-item clickable v-ripple to="/" class="drawer-item">
           <q-item-section avatar>
