@@ -23,14 +23,14 @@ function toggleLeftDrawer() {
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/home" label="Home" />
+        <q-route-tab to="/" label="Home" />
         <q-route-tab to="/list" label="Rick & Morty List" />
       </q-tabs>
     </q-header>
 
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
       <q-list>
-        
+        <q-item-label header>Menu</q-item-label>
       </q-list>
     </q-drawer>
 
